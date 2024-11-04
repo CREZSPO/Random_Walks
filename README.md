@@ -11,3 +11,11 @@ For this basically, we want to know about the end points of all the random walks
 ![download](https://github.com/user-attachments/assets/55d7334f-e5b3-4072-b664-623e9dca6dc5)
 
 Then we can proced to simulate 500 random walks and set them into an histogram.
+
+![hist](https://github.com/user-attachments/assets/1e4cb052-7b5b-4ec8-b1a8-db5294f4ac74)
+
+The previous histogram was created from a NumPy array `ends`, that contains 500 integers. Each integer represents the end point of a random walk. To calculate the chance that this end point is greater than or equal to 60, we can count the number of integers in `ends` that are greater than or equal to 60 and divide that number by 500, the total number of simulations.
+
+Probability of ending at 60 or above: 0.792
+
+
